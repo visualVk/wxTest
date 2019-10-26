@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "input-clear": "/component/shop-list/shop-list"
+  }
+}

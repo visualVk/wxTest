@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "input-clear" : "/component/input-clear/input-clear"
+  }
+}

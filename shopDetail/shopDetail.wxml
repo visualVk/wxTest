@@ -1,0 +1,15 @@
+<!--pages/shopDetail/shopDetail.wxml-->
+<view id="shopDetail">
+    <view class="top">
+        <view class="head"><image class="img" src="{{shopDetail.shopImage}}"></image></view>
+        <view class="right">
+            <view class="name">{{shopDetail.shopName}}</view>
+            <view class="distance">{{shopDetail.shopDistance}}</view>
+            <view class="time">{{shopDetail.shopTime}}</view>
+        </view>
+    </view>
+    <button class="s-btn">绍兴</button>
+    <button class="a-btn">40001</button>
+    <button class="appraise-btn" bindtap="addApprise">评价</button>
+    <button class="appraise-btn" bindtap="apprise">查看评价</button>
+</view>

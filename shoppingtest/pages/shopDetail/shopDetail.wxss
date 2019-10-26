@@ -1,0 +1,79 @@
+#shopDetail {
+  display: flex;
+  flex-direction: column;
+  padding: 100rpx 50rpx 20rpx 50rpx; }
+  #shopDetail .top {
+    display: flex;
+    flex-direction: row; }
+    #shopDetail .top .head {
+      width: 250rpx;
+      height: 250rpx; }
+      #shopDetail .top .head .img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        border: 1rpx solid #6ba1ff; }
+    #shopDetail .top .right {
+      display: flex;
+      flex-direction: column;
+      margin-left: 50rpx; }
+      #shopDetail .top .right .name {
+        font-size: 30rpx;
+        font-family: PingFangSC-Medium,PingFangSC;
+        font-weight: 500;
+        color: #333333;
+        line-height: 42rpx; }
+      #shopDetail .top .right .distance {
+        font-size: 24rpx;
+        font-family: PingFangSC-Medium,PingFangSC;
+        font-weight: 500;
+        color: #26386b;
+        line-height: 34rpx;
+        margin-top: 40rpx; }
+      #shopDetail .top .right .time {
+        font-size: 20rpx;
+        font-family: PingFangSC-Regular,PingFangSC;
+        font-weight: 400;
+        color: #666666;
+        line-height: 42rpx;
+        margin-top: 40rpx;
+        overflow: hidden;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+  #shopDetail .s-btn {
+    margin-top: 50rpx;
+    text-align: center;
+    width: 80%;
+    height: 50rpx;
+    font-size: 30rpx;
+    font-family: PingFangSC-Medium,PingFangSC;
+    font-weight: 500;
+    background-color: #ffffff;
+    line-height: 50rpx; }
+    #shopDetail .s-btn:after {
+      border: none; }
+  #shopDetail .a-btn {
+    margin-top: 50rpx;
+    text-align: center;
+    width: 80%;
+    height: 50rpx;
+    font-size: 30rpx;
+    font-family: PingFangSC-Medium,PingFangSC;
+    font-weight: 500;
+    background-color: #ffffff;
+    line-height: 50rpx; }
+    #shopDetail .a-btn:after {
+      border: none; }
+  #shopDetail .appraise-btn {
+    margin-top: 50rpx;
+    width: 80%;
+    height: 60rpx;
+    background: #4ab4ff;
+    font-size: 30rpx;
+    font-family: PingFangSC-Medium,PingFangSC;
+    font-weight: 500;
+    color: #f0f0f0;
+    line-height: 60rpx; }
+
+/*# sourceMappingURL=shopDetail.wxss.map */

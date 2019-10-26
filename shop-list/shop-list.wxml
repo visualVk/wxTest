@@ -1,0 +1,11 @@
+<view class="list-view" wx:for="{{shopList}}"
+      wx:key data-id="{{item.shopId}}" bindtap="toDetail">
+    <view class="head">
+        <image class="img" src="{{item.shopImage}}"></image>
+    </view>
+    <view class="item-right">
+        <view class="name">{{item.shopName}}</view>
+        <view class="price">人均:{{item.shopSpend}}</view>
+        <view class="detail">{{item.shopDesc}}</view>
+    </view>
+</view>

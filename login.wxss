@@ -1,0 +1,68 @@
+page {
+    background: white;
+}
+
+#login {
+    padding: 56 rpx 26 rpx 0 rpx 26 rpx;
+}
+
+#login .login_text {
+    height: 72 rpx;
+    font-size: 50 rpx;
+    font-family: PingFangSC-Semibold;
+    font-weight: 600;
+    color: #333333;
+    line-height: 72 rpx;
+}
+
+#login .input {
+    margin-top: 144 rpx;
+    border-radius: 16px;
+    border: 1px solid #070707;
+}
+
+#login .input .line {
+    height: 1 rpx;
+    background: #0b0b0b;
+}
+
+#login .register-view {
+    margin-top: 42 rpx;
+    margin-left: 586 rpx;
+    height: 40 rpx;
+    font-size: 28 rpx;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #333333;
+    line-height: 28 rpx;
+}
+
+#login .login_btn_mix {
+    margin-top: 192 rpx;
+}
+
+#login .login_btn_mix .login_button {
+    width: 300 rpx;
+    height: 90 rpx;
+    background-size: 698 rpx 90 rpx;
+    font-size: 36 rpx;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    line-height: 90 rpx;
+    padding: 0;
+    border: none;
+    background: #4ab4ff;
+}
+
+#login .login_btn_mix .login_button:after {
+    border: none;
+}
+
+.input_text_class {
+    font-size: 32 rpx;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #c9c9c9;
+    line-height: 44 rpx;
+}
+

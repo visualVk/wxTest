@@ -1,0 +1,47 @@
+.list-view {
+  padding: 15rpx 26rpx;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px #d4d4d4;
+  margin-top: 20rpx; }
+  .list-view .head {
+    width: 140rpx;
+    height: 140rpx; }
+    .list-view .head .img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px; }
+  .list-view .item-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rpx; }
+    .list-view .item-right .name {
+      width: 200rpx;
+      font-size: 30rpx;
+      font-family: PingFangSC-Medium,PingFangSC;
+      font-weight: 500;
+      color: #333333;
+      line-height: 42rpx;
+      margin-top: 5rpx; }
+    .list-view .item-right .price {
+      width: 200rpx;
+      font-size: 24rpx;
+      font-family: PingFangSC-Medium,PingFangSC;
+      font-weight: 500;
+      color: #26386b;
+      line-height: 34rpx;
+      margin-top: 5rpx; }
+    .list-view .item-right .detail {
+      width: 450rpx;
+      font-size: 20rpx;
+      font-family: PingFangSC-Regular,PingFangSC;
+      font-weight: 400;
+      color: #666666;
+      line-height: 42rpx;
+      margin-top: 5rpx;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+
+/*# sourceMappingURL=shop-list.wxss.map */

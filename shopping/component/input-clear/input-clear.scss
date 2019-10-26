@@ -1,0 +1,34 @@
+.input_phone{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  .phone_input{
+    width: 100%;
+    height: 80rpx;
+    text-indent: 10rpx;
+    margin-left: 20rpx;
+  }
+  .phoneImg{
+    width: 40rpx;
+    height: 40rpx;
+  }
+  .phoneImgHide{
+    display: none;
+  }
+}
+
+.input_text_class{
+  font-size:32rpx;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color: rgba(201, 201, 201, 1);
+  line-height:44rpx;
+}
+.place-holder-class{
+  font-size:30rpx;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(222,222,222,1);
+  line-height:42rpx;
+}

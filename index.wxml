@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view id="contain">
+  <swiper
+          indicator-dots="{{indicatorDots}}"
+          autoplay="{{autoplay}}"
+          interval="{{interval}}"
+          duration="{{duration}}"
+          previous-margin="{{previousMargin}}"
+          next-margin="{{nextMargin}}"
+          circular="{{circular}}"
+          bindchange="swiperBindchange"
+          class="swiper">
+
+    <block wx:for="{{imageList}}" wx:key>
+      <swiper-item>
+        <image src="{{item}}"  class="slide-image {{currentSwiperIndex == index ? 'zoom-in' : 'zoom-out'}}"/>
+      </swiper-item>
+    </block>
+
+  </swiper>
+
+  <view class="mid" >
+    <view class="search">
+      <view class="img-view">
+        <image class="img" src="../../img/icon/index/search.png"></image>
+      </view>
+      <input  class="input" placeholder="搜索" placeholder-class="placeholder" bindtap="toSearch"/>
+    </view>
+  </view>
+  <!--商铺列表组件-->
+  <shop-list shopList="{{shopList}}"></shop-list>
+  <view wx:if="{{loadMore == false}}" class="no-more"><text class="no-more-text">暂无更多商铺</text></view>
+</view>
+
+<!--<view class="btm">-->
+<!--  <button class="btm-btn">添加商户信息</button>-->
+<!--</view>-->
+
+

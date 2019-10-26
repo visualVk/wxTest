@@ -1,0 +1,14 @@
+<view class="input_phone">
+    <input  class='phone_input' value="{{inputValue}}"
+            type="{{inputType}}"
+            bindinput="inputClick"
+            placeholder="{{inputPlaceHolder}}"
+            placeholder-class="{{holderClass}}"
+            password="{{isPassword}}"
+            bindblur="blurClick"
+            bindfocus="focusClick"
+            maxlength="{{maxLen}}"/>
+    <image class="{{isClearShow?'phoneImg':'phoneImgHide'}}"
+           src="/img/icon/login/clear.png"
+           bindtap="clearTap"></image>
+</view>

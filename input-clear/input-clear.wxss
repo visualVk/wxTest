@@ -1,0 +1,31 @@
+.input_phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+.input_phone .phone_input {
+    width: 100%;
+    height: 80rpx;
+    text-indent: 10rpx;
+    margin-left: 20rpx; }
+.input_phone .phoneImg {
+    width: 40rpx;
+    height: 40rpx; }
+.input_phone .phoneImgHide {
+    display: none; }
+
+.input_text_class {
+    font-size: 32rpx;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #c9c9c9;
+    line-height: 44rpx; }
+
+.place-holder-class {
+    font-size: 30rpx;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #dedede;
+    line-height: 42rpx; }
+
+

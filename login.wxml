@@ -1,0 +1,15 @@
+<view id="login">
+    <view class="login_text">登录</view>
+    <view class="input">
+        <input-clear inputPlaceHolder="请输入登录手机号" maxLen="{{11}}" placeholderClass="input_text_class"
+                     bind:inputClick="getAccount" inputValue="{{userAccount}}" inputType="text"></input-clear>
+        <view class="line"></view>
+        <input-clear inputValue="{{userPwd}}" inputPlaceHolder="请输入密码" isPassword="true"
+                     inputType="number" placeholderClass="input_text_class" bind:inputClick="getPwd"
+                     maxLen="{{16}}"></input-clear>
+    </view>
+    <view class="register-view" bindtap="register">注册</view>
+    <view class="login_btn_mix">
+        <button class="login_button" plain='true' bindtap="login_btn">登录</button>
+    </view>
+</view>

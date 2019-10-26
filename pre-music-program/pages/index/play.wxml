@@ -1,0 +1,14 @@
+<view class="content-play">
+	<view class="content-play-info">
+		<text>title</text>
+		<text>type</text>
+	</view>
+	<view class="content-play-cover">
+		<image src="../../images/banner1.jpg"></image>
+	</view>
+	<view class="content-play-progress">
+		<text>0.0</text>
+		<slider block-size="12" show-value="true" bindchanging="changeValue"></slider>
+		<text>0.0</text>
+	</view>
+</view>

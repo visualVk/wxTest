@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b69104db-2fce-4e5e-bf55-61c983d1aab8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SJRNpXmF4gn5nTntVKtQR8XBVR" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../person_copy/project-personnelmanage" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coding\wxTest\shoppingtest\components\shop-list" />
+      <recent name="D:\coding\wxTest\shoppingtest" />
+      <recent name="D:\coding\wxTest\shoppingtest\pages\index\image" />
+      <recent name="D:\coding\wxTest\shoppingtest\pages\index" />
+      <recent name="D:\coding\wxTest\shoppingtest\components" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b69104db-2fce-4e5e-bf55-61c983d1aab8" name="Default Changelist" comment="" />
+      <created>1571279674497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571279674497</updated>
+      <workItem from="1571279675793" duration="960000" />
+      <workItem from="1571281816244" duration="2239000" />
+      <workItem from="1571623396336" duration="3000" />
+      <workItem from="1571623400702" duration="3000" />
+      <workItem from="1571623404710" duration="6113000" />
+      <workItem from="1571709801162" duration="4022000" />
+      <workItem from="1571883387190" duration="5325000" />
+      <workItem from="1571904152677" duration="743000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
